@@ -11,5 +11,6 @@ import Foundation
 let WEATHER_URL: String = "http://api.openweathermap.org/data/2.5/weather?q="
 let USER_LOCATION: String = "Hamburg,de"
 let USER_KEY: String = "&APPID=7be770c973bfdadcdd0e2f0d999f689c"
+let UNITS_METRIC: String = "&units=metric"
 
 typealias DownloadComplete = () -> ()

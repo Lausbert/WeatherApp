@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         
         weather = Weather(weatherLocation: USER_LOCATION)
         weather.downloadWeatherDetails {
+            print("test")
         }
     }
 }

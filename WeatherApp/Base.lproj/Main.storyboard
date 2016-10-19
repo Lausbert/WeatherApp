@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weather app rain" translatesAutoresizingMaskIntoConstraints="NO" id="Vof-Qx-QQj"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rain" translatesAutoresizingMaskIntoConstraints="NO" id="Vof-Qx-QQj"/>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lsB-qF-8YH">
                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -62,11 +62,6 @@
                                         <color key="textColor" red="0.1537742913" green="0.25031831859999998" blue="0.39548909659999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14° - 30°" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meE-nG-C7d">
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="12"/>
-                                        <color key="textColor" red="0.1537944973" green="0.25921243430000002" blue="0.40365156530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jb0-tD-AcS">
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Humidity: 70%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lwA-ff-NCX">
@@ -96,8 +91,6 @@
                                 <constraints>
                                     <constraint firstItem="FfP-dY-w54" firstAttribute="top" secondItem="wg7-Vd-Xhh" secondAttribute="top" constant="20" id="8XJ-eh-LV8"/>
                                     <constraint firstItem="FfP-dY-w54" firstAttribute="leading" secondItem="wg7-Vd-Xhh" secondAttribute="leading" constant="20" id="9Cj-I4-njV"/>
-                                    <constraint firstItem="meE-nG-C7d" firstAttribute="top" secondItem="7w0-3f-OHl" secondAttribute="bottom" id="BkP-X5-nqm"/>
-                                    <constraint firstItem="meE-nG-C7d" firstAttribute="width" secondItem="7w0-3f-OHl" secondAttribute="width" id="KGT-1S-7EY"/>
                                     <constraint firstAttribute="height" constant="320" id="RBc-rQ-oJI"/>
                                     <constraint firstItem="7w0-3f-OHl" firstAttribute="centerY" secondItem="wg7-Vd-Xhh" secondAttribute="centerY" id="Sby-VN-NZ1"/>
                                     <constraint firstItem="7w0-3f-OHl" firstAttribute="centerX" secondItem="wg7-Vd-Xhh" secondAttribute="centerX" id="YhH-tg-5rD"/>
@@ -108,7 +101,6 @@
                                     <constraint firstAttribute="trailing" secondItem="Oeb-6u-isF" secondAttribute="trailing" constant="20" id="ji2-Dp-qgd"/>
                                     <constraint firstAttribute="bottom" secondItem="jb0-tD-AcS" secondAttribute="bottom" constant="20" id="jsp-M3-2EU"/>
                                     <constraint firstItem="Eci-ct-2bc" firstAttribute="leading" secondItem="7w0-3f-OHl" secondAttribute="trailing" id="sPr-KM-wze"/>
-                                    <constraint firstItem="meE-nG-C7d" firstAttribute="centerX" secondItem="7w0-3f-OHl" secondAttribute="centerX" id="uuv-mr-1SE"/>
                                     <constraint firstItem="Oeb-6u-isF" firstAttribute="top" secondItem="wg7-Vd-Xhh" secondAttribute="top" constant="20" id="yFw-nQ-RqZ"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
@@ -138,6 +130,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="weather app rain" width="750" height="1334"/>
+        <image name="rain" width="750" height="1334"/>
     </resources>
 </document>
