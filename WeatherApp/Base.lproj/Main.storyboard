@@ -54,7 +54,7 @@
                                             <constraint firstAttribute="width" constant="100" id="grn-su-Afd"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="90"/>
-                                        <color key="textColor" red="0.1537742913" green="0.25031831859999998" blue="0.39548909659999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.077966563403606415" green="0.09153110533952713" blue="0.34160542488098145" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="°" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eci-ct-2bc">
@@ -128,6 +128,7 @@
                             <outlet property="detailView" destination="wg7-Vd-Xhh" id="Adx-jl-UAi"/>
                             <outlet property="humidityLbl" destination="lwA-ff-NCX" id="3Mb-pD-GU0"/>
                             <outlet property="nextDetailView" destination="lsB-qF-8YH" id="H3W-Ah-ELY"/>
+                            <outlet property="temperatureUnitLbl" destination="Eci-ct-2bc" id="irB-KK-wnS"/>
                             <outlet property="weatherLocationLbl" destination="Oeb-6u-isF" id="Pv6-l3-Ohw"/>
                             <outlet property="weatherTypeLbl" destination="ZuK-dI-o9C" id="PkH-Dh-4gA"/>
                             <outlet property="weekDayLbl" destination="Iy0-WB-gsD" id="8OL-5i-Y7B"/>
