@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet var weatherView: WeatherView!
     var weather: Weather!
 
     override func viewDidLoad() {
@@ -17,7 +18,7 @@ class ViewController: UIViewController {
         
         weather = Weather(weatherLocation: USER_LOCATION)
         weather.downloadWeatherDetails {
-            print("test")
+            self.weatherView.updateWeather(weather: self.weather)
         }
     }
 }

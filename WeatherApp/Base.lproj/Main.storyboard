@@ -14,7 +14,7 @@
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="WeatherView" customModule="WeatherApp" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -122,7 +122,22 @@
                             <constraint firstItem="Vof-Qx-QQj" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ckY-XT-FNx"/>
                             <constraint firstAttribute="trailing" secondItem="Vof-Qx-QQj" secondAttribute="trailing" id="fWv-Og-9Pc"/>
                         </constraints>
+                        <connections>
+                            <outlet property="backgroundStyleImg" destination="Vof-Qx-QQj" id="oHv-EN-OSE"/>
+                            <outlet property="currentTemperatureLbl" destination="7w0-3f-OHl" id="Vnw-hR-V9d"/>
+                            <outlet property="detailView" destination="wg7-Vd-Xhh" id="Adx-jl-UAi"/>
+                            <outlet property="humidityLbl" destination="lwA-ff-NCX" id="3Mb-pD-GU0"/>
+                            <outlet property="nextDetailView" destination="lsB-qF-8YH" id="H3W-Ah-ELY"/>
+                            <outlet property="weatherLocationLbl" destination="Oeb-6u-isF" id="Pv6-l3-Ohw"/>
+                            <outlet property="weatherTypeLbl" destination="ZuK-dI-o9C" id="PkH-Dh-4gA"/>
+                            <outlet property="weekDayLbl" destination="Iy0-WB-gsD" id="8OL-5i-Y7B"/>
+                            <outlet property="windDirectionLbl" destination="XOl-pn-ipc" id="SI0-0B-L2i"/>
+                            <outlet property="windSpeedLbl" destination="sI7-ho-pWi" id="AK8-GF-nZo"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="weatherView" destination="8bC-Xf-vdC" id="Nij-34-CDO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

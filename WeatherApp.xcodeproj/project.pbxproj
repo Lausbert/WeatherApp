@@ -15,6 +15,7 @@
 		8D3ECB531DB772A300DF6E25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3ECB511DB772A300DF6E25 /* Main.storyboard */; };
 		8D3ECB551DB772A300DF6E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D3ECB541DB772A300DF6E25 /* Assets.xcassets */; };
 		8D3ECB581DB772A300DF6E25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3ECB561DB772A300DF6E25 /* LaunchScreen.storyboard */; };
+		8D83EF241DB8A34700986646 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D83EF231DB8A34700986646 /* WeatherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		8D3ECB541DB772A300DF6E25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D3ECB571DB772A300DF6E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D3ECB591DB772A300DF6E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D83EF231DB8A34700986646 /* WeatherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		A475708C6C43F877A859BF8D /* Pods-WeatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherApp/Pods-WeatherApp.release.xcconfig"; sourceTree = "<group>"; };
 		F20878A137C016D7B5C7B239 /* Pods-WeatherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherApp/Pods-WeatherApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +74,7 @@
 		8D3E8D8E1DB79B3D0057D4DA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8D83EF231DB8A34700986646 /* WeatherView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D83EF241DB8A34700986646 /* WeatherView.swift in Sources */,
 				8D3ECB501DB772A300DF6E25 /* ViewController.swift in Sources */,
 				8D3E8D941DB79FAD0057D4DA /* Constants.swift in Sources */,
 				8D3E8D921DB79B7B0057D4DA /* Weather.swift in Sources */,

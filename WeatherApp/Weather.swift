@@ -65,7 +65,7 @@ class Weather {
         return _weatherType
     }
     
-    var weatherLocatiom: String {
+    var weatherLocation: String {
         if _weatherLocation == nil {
             _weatherLocation = ""
         }
